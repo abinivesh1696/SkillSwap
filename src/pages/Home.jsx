@@ -52,21 +52,6 @@ export default function Home(){
       <div className="container">
         <Stats />
       </div>
-
-      <section className="container py-5">
-        <h3 className="mt-5">Testimonials</h3>
-        <div className="row mt-3">
-          <div className="col-md-4">
-            <div className="card glass p-3">“I learned React while teaching Photoshop — amazing!”</div>
-          </div>
-          <div className="col-md-4">
-            <div className="card glass p-3">“Great community, responsive mentors.”</div>
-          </div>
-          <div className="col-md-4">
-            <div className="card glass p-3">“Swapped design for data — practical and free!”</div>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
