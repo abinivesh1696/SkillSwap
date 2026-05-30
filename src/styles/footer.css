@@ -1,0 +1,30 @@
+/* Footer - glassmorphism dashboard style */
+.app-footer { 
+  margin-top: 48px;
+}
+.footer-card {
+  background: var(--footer-bg);
+  border: 1px solid var(--footer-border);
+  box-shadow: 0 6px 30px rgba(40,60,120,0.18);
+  border-radius: 12px;
+  color: var(--footer-text);
+  backdrop-filter: blur(8px) saturate(120%);
+}
+.footer-brand h4 { color: var(--footer-text); font-weight:700 }
+.footer-heading { color: var(--footer-muted); font-size: 0.95rem; margin-bottom: 0.6rem }
+.footer-links { margin: 0; padding: 0 }
+.footer-link { color: var(--footer-text); text-decoration: none; display: inline-block; padding: 4px 0; transition: color .18s ease, transform .12s ease }
+.footer-link:hover { color: var(--primary); transform: translateY(-2px) }
+.social-icon { display: inline-flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:10px; background: rgba(255,255,255,0.08); color: var(--footer-text); font-size:18px; transition: transform .12s ease, box-shadow .12s ease }
+.social-icon:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(100,100,255,0.12); color: var(--footer-text) }
+.footer-divider { border: none; height:1px; background: linear-gradient(90deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02)); margin-top:1.25rem }
+
+/* Responsive spacing */
+@media (max-width: 576px){
+  .footer-card { padding: 1rem }
+  .social-icon { width:36px; height:36px; border-radius:8px }
+}
+
+/* Accent button-like link */
+.footer-cta { display:inline-flex; align-items:center; gap:0.5rem; padding:6px 10px; background: linear-gradient(90deg,#6d7cff,#8a56d8); color:#fff; border-radius:8px; text-decoration:none }
+.footer-cta:hover { filter:brightness(1.03); transform:translateY(-2px) }
