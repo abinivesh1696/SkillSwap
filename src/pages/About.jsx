@@ -115,7 +115,7 @@ export default function About() {
           <div className="col-md-6 mb-3">
             <div className="card p-3">
               <h5 className="fw-bold">Our Mission</h5>
-              <p className="muted mb-0">Empower students to share knowledge, practice skills, and build confidence through collaborative exchanges.</p>
+              <p className="muted mb-0">Empower students to share knowledge, Practice skills, and Build confidence through collaborative exchanges with oothers.</p>
             </div>
           </div>
           <div className="col-md-6 mb-3">
