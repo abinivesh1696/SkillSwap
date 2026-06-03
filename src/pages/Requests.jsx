@@ -9,12 +9,6 @@ export default function Requests(){
     localStorage.setItem('ss-requests', JSON.stringify(requests))
   },[requests])
 
-  function addDummy(){
-    const r = { id: Date.now().toString(), sender: 'Alex', offered: 'React', requested: 'Photoshop', message: 'Hey, want to swap?', status: 'Pending' }
-    setRequests(prev=> [r, ...prev])
-    toast.info("Mock request added!")
-  }
-
   function accept(id){
     const req = requests.find(r => r.id === id)
     setRequests(prev=> prev.map(r=> r.id===id? {...r, status: 'Accepted'}:r))
@@ -30,9 +24,6 @@ export default function Requests(){
     <section className="container py-5">
       <div className="d-flex justify-content-between mb-3">
         <h3>Swap Requests</h3>
-        <div>
-          <button className="btn btn-sm btn-primary" onClick={addDummy}>Add Request</button>
-        </div>
       </div>
       {requests.length===0? <div className="card glass p-3">No requests yet</div> : requests.map(r=> (
         <RequestCard key={r.id} r={r} onAccept={accept} onReject={reject} />
