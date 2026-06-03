@@ -31,19 +31,20 @@ export default function Footer(){
             <div className="col-6 col-md-3">
               <h6 className="footer-heading">Contact</h6>
               <div className="d-flex gap-3 mt-2">
-                <a className="social-icon" href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <a className="social-icon" href="https://www.linkedin.com/in/abinivesh-kv/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                   <FaLinkedin />
                 </a>
-                <a className="social-icon" href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <a className="social-icon" href="https://github.com/abinivesh1696" target="_blank" rel="noreferrer" aria-label="GitHub">
                   <FaGithub />
                 </a>
-                <a className="social-icon" href="mailto:skillswaphub@gmail.com" aria-label="Email">
+                <a className="social-icon" href="mailto:abiniveshk@gmail.com" aria-label="Email">
                   <FiMail />
                 </a>
               </div>
 
               <div className="mt-3 small text-muted">
-                <div>Mail : <a href="mailto:skillswaphub@gmail.com" className="footer-link">abiniveshk@gmail.com</a></div>
+                <div>Mail : <a href="mailto:abiniveshk@gmail.com" className="footer-link">abiniveshk@gmail.com</a></div>
+                <div>Phone : <a href="tel:+918248633996" className="footer-link">+91 8248633996</a></div>
             
                 <div className="mt-1">Mon–Sat • 8:00–22:00</div>
               </div>
@@ -54,7 +55,6 @@ export default function Footer(){
 
           <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 pt-3">
             <div className="small text-muted">© 2026 SkillSwap Hub</div>
-            <div className="small text-muted">Built with React + Bootstrap</div>
           </div>
         </div>
       </div>

@@ -16,9 +16,9 @@ function useCounter(target, duration=1200){
 }
 
 export default function Stats(){
-  const s1 = useCounter(1240,1400)
-  const s2 = useCounter(820,1400)
-  const s3 = useCounter(98,1400)
+  const s1 = useCounter(120,140)
+  const s2 = useCounter(80,140)
+  const s3 = useCounter(98,140)
 
   return (
     <section className="py-5">

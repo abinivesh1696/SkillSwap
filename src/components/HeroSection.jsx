@@ -36,7 +36,6 @@ export default function HeroSection(){
             <p className="lead text-muted">Connect with students and exchange knowledge without paying for expensive courses.</p>
             <div className="mt-4 d-flex gap-2">
               <a href="#explore" className="btn btn-primary btn-glow me-2">Explore Skills</a>
-              <a href="#join" className="btn btn-ghost">Join Community</a>
             </div>
             <div className="mt-3 small text-muted">Trending: <span className="gradient-text">{typed}</span><span className="text-muted">▌</span></div>
           </div>
