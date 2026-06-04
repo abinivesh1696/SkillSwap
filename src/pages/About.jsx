@@ -10,7 +10,7 @@ const features = [
 ]
 
 const techs = [
-  'React', 'Bootstrap 5', 'Vite', 'Firebase', 'Axios', 'Bootstrap Icons'
+  'React', 'Bootstrap', 'Vite', 'Firebase', 'Bootstrap Icons'
 ]
 
 function FeatureCard({ icon, title, desc }) {
@@ -77,13 +77,13 @@ export default function About() {
                 <div className="row mt-3">
                   <div className="col-6 mb-3">
                     <div className="stat">
-                      <div className="stat-value">1.2k+</div>
+                      <div className="stat-value">110+</div>
                       <div className="muted small">Active Students</div>
                     </div>
                   </div>
                   <div className="col-6 mb-3">
                     <div className="stat">
-                      <div className="stat-value">3.8k</div>
+                      <div className="stat-value">80+</div>
                       <div className="muted small">Skill Exchanges</div>
                     </div>
                   </div>
