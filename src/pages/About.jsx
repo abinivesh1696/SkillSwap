@@ -10,7 +10,7 @@ const features = [
 ]
 
 const techs = [
-  'React', 'Bootstrap', 'Vite', 'Firebase', 'Bootstrap Icons'
+  'React', 'Bootstrap', 'JavaScript', 'TypeScript', 'Node.js', 'Vite', 'Firebase', 'Bootstrap Icons'
 ]
 
 function FeatureCard({ icon, title, desc }) {
@@ -36,7 +36,7 @@ function DevCard() {
     <div className="card dev-card p-3 d-flex align-items-center gap-3">
       <img src="https://i.pravatar.cc/128?img=12" alt="dev" className="dev-avatar" />
       <div>
-        <div className="fw-bold">Alex Morgan</div>
+        <div className="fw-bold">NIVESH</div>
         <div className="muted small">Fullstack Developer • SkillSwap Hub</div>
         <div className="mt-2 d-flex gap-2">
           <a href="#" className="text-decoration-none link-glow"><i className="bi bi-github"></i></a>

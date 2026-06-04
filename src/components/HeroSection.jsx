@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 export default function HeroSection(){
   const [typed, setTyped] = useState('')
-  const phrases = ['React', 'Photoshop', 'Python', 'AI Tools']
+  const phrases = ['React', 'JavaScript', 'TypeScript', 'Node.js', 'Photoshop', 'Python', 'AI Tools']
   useEffect(()=>{
     let idx = 0
     let i = 0
@@ -46,6 +46,13 @@ export default function HeroSection(){
                 <div className="badge bg-secondary text-dark">Programming</div>
                 <div className="badge bg-secondary text-dark">Design</div>
                 <div className="badge bg-secondary text-dark">AI Tools</div>
+                <div className="badge bg-secondary text-dark">Web Development</div>
+                <div className="badge bg-secondary text-dark">Mobile Development</div>
+                <div className="badge bg-secondary text-dark">Node.js</div>
+                <div className="badge bg-secondary text-dark">JavaScript</div>
+                <div className="badge bg-secondary text-dark">TypeScript</div>
+                <div className="badge bg-secondary text-dark">Python</div>
+                <div className="badge bg-secondary text-dark">React</div>
                 <div className="badge bg-secondary text-dark">Video Editing</div>
               </div>
             </div>

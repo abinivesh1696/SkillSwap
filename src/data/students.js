@@ -117,7 +117,7 @@ const students = [
   },
   {
     id: 's7',
-    name: 'Manoj',
+    name: 'Harinii',
     college: 'IIT Madras',
     avatar: 'https://img.freepik.com/free-vector/young-man-profile-cartoon_18591-58475.jpg',
     offered: ['Python', 'Machine Learning'],
@@ -129,9 +129,9 @@ const students = [
     completed: 18,
     badges: ['ML Mentor'],
     contact: {
-      email: 'manoj.skillswap@example.com',
+      email: 'harinii.skillswap@example.com',
       phone: '+91-44-555-210-6002',
-      linkedin: 'https://www.linkedin.com/in/manoj-skill'
+      linkedin: 'https://www.linkedin.com/in/harinii-skill'
     }
   },
   {
@@ -231,8 +231,8 @@ const students = [
   },
   {
     id: 's13',
-    name: 'Divya',
-    college: 'SRM Institute of Science and Technology',
+    name: 'MadhumithaBI',
+    college: 'KMCH Institute of Science and Technology',
     avatar: 'https://img.freepik.com/free-vector/portrait-young-woman_53876-56508.jpg',
     offered: ['React', 'Frontend'],
     wanted: ['Figma'],
@@ -243,9 +243,9 @@ const students = [
     completed: 12,
     badges: ['React Runner'],
     contact: {
-      email: 'divya.skillswap@example.com',
+      email: 'madhumithabi.skillswap@example.com',
       phone: '+91-44-555-210-6008',
-      linkedin: 'https://www.linkedin.com/in/divya-skill'
+      linkedin: 'https://www.linkedin.com/in/madhumithabi-skill'
     }
   },
   {
