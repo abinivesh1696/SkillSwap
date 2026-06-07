@@ -54,6 +54,7 @@ export default function HeroSection(){
                 <div className="badge bg-secondary text-dark">Python</div>
                 <div className="badge bg-secondary text-dark">React</div>
                 <div className="badge bg-secondary text-dark">Video Editing</div>
+                <div className="badge bg-secondary text-dark">Photography</div>
               </div>
             </div>
           </div>
