@@ -8,7 +8,9 @@ public class ArraySwap {
       System.out.println(Arrays.toString(arr));
      obj.reverse(arr2);
       System.out.println(Arrays.toString(arr2));
+    
   }
+  
   public void reverse(int[] arr){
       int start = 0 ;
       int end = arr.length -1;
