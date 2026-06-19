@@ -235,7 +235,7 @@ const students = [
     college: 'KMCH Institute of Science and Technology',
     avatar: 'https://img.freepik.com/free-vector/portrait-young-woman_53876-56508.jpg',
     offered: ['React', 'Frontend'],
-    wanted: ['Figma'],
+    wanted: ['Shanmuga'],
     experience: 'Intermediate',
     rating: 4.6,
     availability: 'Evenings',
