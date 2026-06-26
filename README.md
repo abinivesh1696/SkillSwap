@@ -62,4 +62,4 @@ Open the local Vite URL shown in the terminal to view the application.
 ## 💡 Notes
 
 This project is currently a frontend-only demo and uses browser storage for persistent state. It is ideal for prototyping UI flows and demonstrating student skill exchange interactions.
-fix-time 
+fix-time .
