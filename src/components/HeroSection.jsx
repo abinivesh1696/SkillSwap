@@ -33,7 +33,7 @@ export default function HeroSection(){
         <div className="row align-items-center">
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold"><span className="gradient-text">Learn Skills</span> By <span className="gradient-text">Sharing Skills</span></h1>
-            <p className="lead text-muted">Connect with students and exchange knowledge without paying for expensive courses.</p>
+            <p className="lead text-muted">Connectwith students and exchange knowledge without expensive courses.</p>
             <div className="mt-4 d-flex gap-2">
               <a href="#explore" className="btn btn-primary btn-glow me-2">Explore Skills</a>
             </div>
