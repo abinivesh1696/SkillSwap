@@ -38,7 +38,7 @@ export default function Login() {
           </div>
           <button className="btn btn-primary w-100" type="submit">Login</button>
         </form>
-        <p className="small mt-3 mb-0">New user? <Link to="/register">Create account</Link></p>
+        <p className="small mt-3 mb-0">New user ready to login? <Link to="/register">Create account</Link></p>
       </div>
     </section>
   )
